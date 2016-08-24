@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
  */
 public class PageBase {
 
+	
     protected static void setCheckCheckBoxState(WebElement checkBox, boolean checked)
             throws InvalidElementStateException {
         if (!checkBox.getAttribute("type").contentEquals("checkbox") ||
