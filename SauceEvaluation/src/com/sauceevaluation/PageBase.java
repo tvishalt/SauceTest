@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by mehmetgerceker on 12/7/15.
  */
-public class PageBase {
+public class PageBase {//
 	
     protected static void setCheckCheckBoxState(WebElement checkBox, boolean checked)
             throws InvalidElementStateException {
